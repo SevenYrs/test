@@ -50,14 +50,15 @@ class Shape{
 			cylinder.radius=10;
 			cylinder.height=10;
 			
-			cout<<"Èı½ÇĞÎµÄÃæ»ı="<<triangle.getArea()<<endl;
-			cout<<"Ô²ĞÎµÄÃæ»ı="<<circle.getArea()<<endl;
-			cout<<"ÈıÀâÖùµÄÌå»ı="<<triangularprism.getVolume()<<endl;
-			cout<<"Ô²ÖùÌåµÄÌå»ı="<<cylinder.getVolume()<<endl;			 
+			cout<<"ä¸‰è§’å½¢çš„é¢ç§¯="<<triangle.getArea()<<endl;
+			cout<<"åœ†å½¢çš„é¢ç§¯="<<circle.getArea()<<endl;
+			cout<<"ä¸‰æ£±æŸ±çš„ä½“ç§¯="<<triangularprism.getVolume()<<endl;
+			cout<<"åœ†æŸ±ä½“çš„ä½“ç§¯="<<cylinder.getVolume()<<endl;			 
 		}
 };
 int main(){
 	Shape shape;
 	shape.Calculate();
+	//make changes here
 	return 0;	
 }
